@@ -34,9 +34,7 @@ Bot dapat mengklasifikasikan pertanyaan ke:
 Semua pertanyaan kompleks disimpan ke dalam database.db dengan:
 
 Username
-
 Isi pesan
-
 Departemen tujuan
 
 ### 🎛 Interactive Button Interface
@@ -50,7 +48,5 @@ Admin dapat melihat semua tiket menggunakan command:
 ### 💬 Text Message Processing
 Bot dapat membaca dan memproses pesan teks secara real-time.
 
-
-## Fitur tambahan:
 ### 🎨 Professional Embed UI
 Semua jawaban menggunakan Discord Embed agar tampilan lebih bersih dan modern.
