@@ -1,5 +1,4 @@
 import discord
-import asyncio
 from discord.ext import commands
 import logic  # import file logic.py
 from config import TOKEN
