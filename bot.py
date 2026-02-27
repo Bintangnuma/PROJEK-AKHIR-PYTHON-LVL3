@@ -4,7 +4,7 @@ import logic  # import file logic.py
 from config import TOKEN
 
 intents = discord.Intents.default()
-intents.message_content = True  # TAMBAHKAN INI
+intents.message_content = True  
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 
@@ -37,7 +37,6 @@ class MenuView(discord.ui.View):
     async def pengiriman(self, interaction: discord.Interaction, button: discord.ui.Button):
         await interaction.response.send_message(logic.get_pengiriman(), ephemeral=True)
         
-# ================= COMMAND START =================
 @bot.command()
 async def start(ctx):
     embed = discord.Embed(
